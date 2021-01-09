@@ -14,8 +14,6 @@ function App() {
   const initialState = useContext(Context);
   const [state, dispatch] = useReducer(reducer, initialState);
 
-  console.log({state });
-
   return (
     <Context.Provider value={{ state, dispatch }}>
        <Switch>

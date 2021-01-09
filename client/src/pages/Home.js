@@ -1,9 +1,13 @@
 import React from 'react';
 
+import Header from '../components/Header'
+import Signout from '../components/Auth/Signout'
+
 export default function Home() {
     return (
         <div>
-           <h1>Home</h1>
+           <Header />
+           <Signout />
         </div>
     )
 }
